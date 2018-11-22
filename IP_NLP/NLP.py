@@ -19,4 +19,4 @@ def translate(s):
 	re_result = re.findall(expr, data)
 	return(parser.unescape(re_result[0]))
 
-print(translate("bonjour"))
+#print(translate("bonjour"))
