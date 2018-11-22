@@ -1,0 +1,1 @@
+#google OCR or its equivalent shit dropped here
