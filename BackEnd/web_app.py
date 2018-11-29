@@ -15,7 +15,7 @@ home = os.path.dirname(os.path.realpath(__file__))
 
 @app.route('/upload', methods = ['POST'])
 def get_image():
-	app.logger.info(home)
+    app.logger.info(home)
     img = request.files['image']
     try:
 		os.makedirs(home+'/final_images')   
