@@ -1,0 +1,146 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flyout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.home-feature-box .fa {
+  font-size: 6rem;
+}
+
+.home-feature-box span {
+  display: block;
+  color: #111;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.example-components-list li > a {
+  color: #495057;
+}
+
+.example-components-list li:last-child > a {
+  border-bottom: 0;
+}
+
+.example-components-list li > a .fa {
+  color: rgba(0, 0, 0, 0.35);
+  float: right;
+}
+
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used*/
+  background-image: url("https://wallpapercave.com/wp/RsyHRBx.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1-responsive {
+  font-size: 5em;
+  font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 0px;
+  padding-left: 20px;
+  color: #689ad4;
+}
+#top {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 15, 1),
+    rgba(0, 0, 0, 0)
+  );
+  height: 130px;
+}
+
+.h4-responsive {
+  color: #315c8d;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /*font-style: italic;*/
+  font-size: 1.6em;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.embossed {
+  margin-left: 200px;
+  margin-top: 200px;
+  height: 500px;
+  width: 1000px;
+  background-color: #495057;
+
+  opacity: 0.85;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  border-color: #495057;
+  -webkit-box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.39),
+    inset 0px 0px 23px 10px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.39),
+    inset 0px 0px 23px 10px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.39),
+    inset 0px 0px 23px 10px rgba(0, 0, 0, 0.39);
+}
+
+#I-outer {
+  margin-left: 20px;
+  margin-right: 40px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5em;
+  color: rgba(235, 235, 236, 0.7);
+  height: 500px;
+  width: 500px;
+}
+
+#I-inner {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #495057;
+  background-color: #d1d2d4;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding-top: 115px;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
+  box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
+}
+
+img {
+  margin-left: 128px;
+  margin-top: 115px;
+}
+
+.overlay {
+  height: 400px;
+  margin-top: -116px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.zoom {
+  margin-right: 40px;
+  cursor: pointer;
+}
