@@ -8,4 +8,4 @@ This WebApp takes an image gets text out it and translates it to english.
    ~$sudo npm i -g create-react-app@1.5.2  
    ~$npm install  
    ~$npm start  
-  (To install NodeJS - https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/): 
+  (To install NodeJS and npm - https://websiteforstudents.com/install-the-latest-node-js-and-nmp-packages-on-ubuntu-16-04-18-04-    lts/): 
