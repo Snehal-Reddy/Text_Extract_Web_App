@@ -2,9 +2,9 @@ import React, { Component } from "react";
 class OutputBox extends Component {
   render() {
     return (
-      <div>
+      <div id="O-outer">
         Output Text
-        <div />
+        <div id="O-inner" />
       </div>
     );
   }

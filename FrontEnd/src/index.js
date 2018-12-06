@@ -9,5 +9,4 @@ import TextExtract from "./Text-Extractor";
 import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(<TextExtract />, document.getElementById("root"));
-
 registerServiceWorker();
