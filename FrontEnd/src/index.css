@@ -1,14 +1,16 @@
 body,
 html {
-  height: 100%;
+  height: 953px;
+  width: 1853px;
 }
 .bg {
   /* The image used*/
   background-image: url("https://wallpapercave.com/wp/RsyHRBx.jpg");
 
   /* Full height */
-  height: 100%;
+  height: 953px;
 
+  width: 1853px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
