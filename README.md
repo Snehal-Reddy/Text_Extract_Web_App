@@ -6,6 +6,6 @@ This WebApp takes an image gets text out it and translates it to english.
 3) Then Run the following commands in order 
    
    ~$sudo npm i -g create-react-app@1.5.2  
-   ~$npm install
+   ~$npm install  
    ~$npm start  
   (To install NodeJS - https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/): 
