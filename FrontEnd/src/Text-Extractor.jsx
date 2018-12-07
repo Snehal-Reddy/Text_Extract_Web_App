@@ -10,6 +10,7 @@ class TextExtract extends Component {
         <InputBox />
         <OutputBox />
         <Helmet />
+        <p id="about">About</p>
       </div>
     );
   }

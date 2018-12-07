@@ -1,23 +1,27 @@
 body,
 html {
-  height: 953px;
-  width: 1853px;
+  height: 100%;
+  width: 100%;
+  min-width: 1600px;
+  min-height: 900px;
 }
 .bg {
   /* The image used*/
   background-image: url("https://wallpapercave.com/wp/RsyHRBx.jpg");
 
   /* Full height */
-  height: 953px;
+  height: 100%;
 
-  width: 1853px;
+  width: 100%;
+  min-width: 1425px;
+  min-height: 733px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.h1-responsive {
+#BigHead {
   font-size: 5em;
   font-weight: 100;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -34,7 +38,7 @@ html {
   height: 130px;
 }
 
-.h4-responsive {
+#SmallHead {
   color: #315c8d;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -45,12 +49,14 @@ html {
 }
 
 .embossed {
-  margin-left: 200px;
-  margin-top: 200px;
-  height: 500px;
-  width: 1000px;
+  min-width: 900px;
+  min-height: 430px;
+  position: absolute;
+  margin-left: 14.86%;
+  margin-top: 15%;
+  height: 50%;
+  width: 57%;
   background-color: rgb(51, 144, 198, 0.3);
-
   opacity: 0.85;
   border-style: solid;
   border-width: 0px;
@@ -65,15 +71,14 @@ html {
 }
 
 #I-outer {
-  margin-left: 20px;
-  margin-right: 40px;
-  padding: 5px;
+  margin-left: 3%;
+  margin-right: 10%;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2.5em;
   color: rgba(235, 235, 236, 0.7);
-  height: 500px;
-  width: 500px;
+  height: 100%;
+  width: 46%;
 }
 
 #I-inner {
@@ -82,42 +87,43 @@ html {
   border-color: #495057;
   background-color: #d1d2d4;
   border-radius: 10px;
-  margin-left: 40px;
-  padding-top: 115px;
-  height: 400px;
-  width: 400px;
+  margin-left: 8%;
+  margin-right: 5%;
+  height: 80%;
+  width: 80%;
   -webkit-box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
   box-shadow: inset 0px 0px 120px 4px rgba(0, 0, 0, 0.59);
 }
 
 img {
-  margin-left: 128px;
-  margin-top: 115px;
+  position: absolute;
+  height: 45%;
+  width: 45%;
+  margin-left: 28%;
+  margin-top: 28%;
 }
 
 .overlay {
-  height: 400px;
-  margin-top: -116px;
+  height: 100%;
   border-radius: 10px;
   cursor: pointer;
 }
 .zoom {
-  margin-right: 40px;
+  height: 100%;
   cursor: pointer;
 }
 
 #O-outer {
   position: absolute;
-  margin-left: 490px;
-  margin-top: -500px;
-  padding: 5px;
+  margin-left: 50%;
+  margin-top: -40.5%;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2.5em;
   color: rgba(235, 235, 236, 0.7);
-  height: 500px;
-  width: 500px;
+  height: 100%;
+  width: 45%;
 }
 
 #O-inner {
@@ -125,10 +131,9 @@ img {
   border-width: 2px;
   border-color: #495057;
   background-color: rgb(242, 245, 247, 0.7);
-  margin-left: 40px;
-  padding-top: 115px;
-  height: 250px;
-  width: 400px;
+  margin-left: 3.5%;
+  height: 50%;
+  width: 93%;
   -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.59);
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.59);
@@ -143,9 +148,10 @@ img {
 }
 
 #Helm {
-  position: absolute;
-  margin-top: -428px;
-  margin-left: 1100px;
+  height: 100%;
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 5%;
   overflow: hidden;
   opacity: 0.9;
   cursor: pointer;
@@ -157,9 +163,17 @@ img {
   opacity: 0.7;
   font-weight: 100;
   font-size: 3em;
-  margin-left: 1400px;
+  margin-top: -8%;
+  margin-left: 127%;
+  width: 15%;
 }
 
-.zoom:hover {
-  -webkit-transform: scale(1.005);
+.zoom1 {
+  margin-left: 105%;
+  height: 85%;
+  margin-top: -38%;
+  width: 40%;
+}
+.zoom1:hover {
+  -webkit-transform: scale(1.09);
 }
