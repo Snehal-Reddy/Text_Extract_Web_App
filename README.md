@@ -9,6 +9,6 @@ This WebApp takes an image gets text out it and translates it to english.
    ~$sudo npm i -g create-react-app@1.5.2    
    ~$npm install  
    ~$npm start  
-The FrontEnd Currently Looks Like This:  
+ 
 ![alt_text](https://github.com/Snehal-Reddy/Text_Extract_Web_App/blob/master/Images/Screenshot%20from%202018-12-06%2014-45-36.png)  
 
