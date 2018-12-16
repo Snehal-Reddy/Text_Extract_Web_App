@@ -10,5 +10,3 @@ This WebApp takes an image gets text out it and translates it to english.
    ~$npm install  
    ~$npm start  
  
-![alt_text](https://github.com/Snehal-Reddy/Text_Extract_Web_App/blob/master/Images/Screenshot%20from%202018-12-06%2014-45-36.png)  
-
