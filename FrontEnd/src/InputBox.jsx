@@ -8,12 +8,12 @@ class InputBox extends Component {
           <div id="I-inner">
             <div class="view overlay">
               <img
-                src="https://png.pngtree.com/svg/20161117/live__plus_icon_1099279.png"
+                src="https://static.thenounproject.com/png/1555256-200.png"
                 width="150px"
                 height="150px"
               />
               <div class="mask flex-center rgba-black-light">
-                <p class="white-text">Click to Upload</p>
+                <p class="white-text">Click to Choose Image</p>
               </div>
             </div>
           </div>
