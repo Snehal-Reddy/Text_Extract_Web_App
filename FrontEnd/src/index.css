@@ -32,7 +32,7 @@ html {
 #top {
   background-image: linear-gradient(
     to right,
-    rgba(0, 0, 15, 1),
+    rgb(45, 45, 68),
     rgba(0, 0, 0, 0)
   );
   height: 130px;
@@ -177,4 +177,24 @@ img {
 .zoom1:hover {
   opacity: 0.9;
   -webkit-transform: scale(1.09);
+}
+
+.km-button--primary {
+  background-color: #5c5aa7;
+  color: #ffffff;
+}
+.button {
+  border-radius: 3px;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 36px;
+  padding: 0px 16px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  min-width: 70px;
+  margin-left: 20%;
 }
