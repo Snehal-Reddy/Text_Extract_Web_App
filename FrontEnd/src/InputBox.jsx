@@ -1,5 +1,19 @@
 import React, { Component } from "react";
 class InputBox extends Component {
+  state = {
+    count: 0
+  };
+
+  //constructor() {
+  //  super();
+  //  this.handleIncrement = this.handleIncrement.bind(this);
+  //}
+
+  handleIncrement = () => {
+    console.log("Clicked", this);
+    this.setState({ count: this.state.count + 1 });
+  };
+
   render() {
     return (
       <div id="I-outer">
@@ -12,8 +26,12 @@ class InputBox extends Component {
                 width="150px"
                 height="150px"
               />
-              <div class="mask flex-center rgba-black-light">
-                <p class="white-text">Click to Choose Image</p>
+              <div
+                onClick={this.handleIncrement}
+                class="mask flex-center rgba-black-light"
+              >
+                <input id="selectedImage" type="file" class="button" />
+                <p class="white-text" />
               </div>
             </div>
           </div>
